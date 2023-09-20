@@ -7,9 +7,10 @@ public class Itembutton : MonoBehaviour
     public GameObject ItemInfo;
     public GameObject IsEquip;
     public GameObject Character;
+    ItemData itemdata;
     private void Awake()
     {
-
+        //itemdata = GetComponentInChildren<ItemData>();
     }
     public void equipItem()
     {

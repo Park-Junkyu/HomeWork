@@ -134,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemInfo: {fileID: 711251011093540377}
   IsEquip: {fileID: 171068668149027480}
+  Character: {fileID: 0}
 --- !u!1 &1343883610176532296
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +890,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 150, y: -50}
-  m_SizeDelta: {x: 400, y: 100}
+  m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2262362335424460501
 CanvasRenderer:
