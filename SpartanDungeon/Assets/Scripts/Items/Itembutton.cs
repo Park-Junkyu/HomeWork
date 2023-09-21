@@ -17,7 +17,7 @@ public class Itembutton : MonoBehaviour
     public void equipItem(int weaponNum)
     {
         item = DataManager.Instance.itemdata[weaponNum];
-        player = DataManager.Instance.playerData[0];
+        player = DataManager.Instance.playerData2;
         if (item.type.ToString() == "Weapon")
         {
             player.Attack += item.damage;

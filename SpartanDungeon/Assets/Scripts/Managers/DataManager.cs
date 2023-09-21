@@ -6,7 +6,7 @@ public class DataManager : MonoBehaviour
 {
     public ItemData[] itemdata;
     public PlayerData[] playerData;
-
+    public PlayerData playerData2;
     private static DataManager instance;
     public static DataManager Instance
     {
@@ -23,6 +23,16 @@ public class DataManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        playerData2 = new PlayerData();
+        playerData2.Health = playerData[0].Health;
+        playerData2.Attack = playerData[0].Attack;
+        playerData2.Defence = playerData[0].Defence;
+        playerData2.Critical = playerData[0].Critical;
+    }
+
+    private void Start()
+    {
+
     }
 
     //public void EquipItem(ItemData item, PlayerData player)

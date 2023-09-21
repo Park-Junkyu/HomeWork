@@ -942,6 +942,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aaaeab005dea49b4792d46887ffbe96b, type: 2}
   playerData:
   - {fileID: 11400000, guid: 997dac0ee90513543b88ac7472f95b29, type: 2}
+  playerData2:
+  - {fileID: 0}
 --- !u!4 &1030197704
 Transform:
   m_ObjectHideFlags: 0

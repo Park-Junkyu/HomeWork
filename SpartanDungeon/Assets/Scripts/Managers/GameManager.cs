@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        
     }
 
     private void Start()

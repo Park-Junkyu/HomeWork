@@ -18,7 +18,7 @@ public class CharacterStatus : MonoBehaviour
 
     private void ShowStatus()
     {
-        playerdata = DataManager.Instance.playerData[0];
+        playerdata = DataManager.Instance.playerData2;
         Health.text = "체력 : " + playerdata.Health;
         Attack.text = "공격력 : " + playerdata.Attack;
         Defence.text = "방어력 : " + playerdata.Defence;

@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: Player1
   m_EditorClassIdentifier: 
   Health: 100
-  MaxHealth: 100
-  Attack: 40
-  MaxAttack: 35
+  Attack: 35
   Defence: 20
-  MaxDefence: 20
   Critical: 15
-  MaxCritical: 15
