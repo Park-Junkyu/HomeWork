@@ -28,7 +28,13 @@ public class ItemInfo : MonoBehaviour
     {
         ItemName.text = itemdata.displayName;
         ItemDescription.text = itemdata.description;
-        ItemOption.text ="공격/방어력 : "+ itemdata.damage.ToString();
+        if (itemdata.type.ToString() == "Weapon")
+        {
+            ItemOption.text = "공격력 : " + itemdata.damage.ToString();
+        }else if(itemdata.type.ToString() == "Armor" || itemdata.type.ToString() == "Shield")
+        {
+            ItemOption.text = "방어력 : " + itemdata.defence.ToString();
+        }
         ItemIcon.sprite = itemdata.icon;
     }
 }

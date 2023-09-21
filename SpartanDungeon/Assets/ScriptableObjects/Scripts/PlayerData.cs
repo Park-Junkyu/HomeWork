@@ -16,7 +16,11 @@ public class PlayerData : ScriptableObject
     //[SerializeField] private int critical;
     //public int Critical { get { return critical; } }
     public int Health;
+    public int MaxHealth;
     public int Attack;
+    public int MaxAttack;
     public int Defence;
+    public int MaxDefence;
     public int Critical;
+    public int MaxCritical;
 }
